@@ -1,0 +1,10 @@
+prefix: "<gray>[<gold>SMP</gold>]</gray> "
+
+income:
+  received: "<green>+<amount> coins for active gameplay.</green>"
+  actionbar: "<gold>+<amount> coins</gold>"
+errors:
+  economy-missing: "<red>Economy is unavailable; please contact an administrator.</red>"
+  no-permission: "<red>You do not have permission to execute this command.</red>"
+admin:
+  reloaded: "<green>Configs reloaded.</green>"

@@ -1,0 +1,19 @@
+name: SmpCore
+version: '${version}'
+
+main: com.maxut.smpcore.SmpCorePlugin
+api-version: '26.3'
+load: POSTWORLD
+
+softdepend: [Essentials, Vault]
+
+commands:
+  smpcore:
+    description: Main plugin command
+    permission: smpcore.admin
+    aliases: [smp]
+
+permissions:
+  smpcore.admin:
+    description: Grants full access to SmpCore administration
+    default: op

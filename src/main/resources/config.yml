@@ -1,0 +1,19 @@
+language: en                 # message language selector (currently only messages.yml is supported)
+
+timer:
+  heartbeat-seconds: 5        # how often the heartbeat checks players (5 s = 100 ticks)
+  max-delta-seconds: 15       # maximum seconds per heartbeat (protects against PC sleep/lags)
+  autosave-minutes: 5         # how often to save accumulated time to disk
+
+afk:
+  mode: essentials            # essentials | none (none counts AFK time too)
+
+modules:
+  income:
+    enabled: true
+    interval-seconds: 1800       # how often to give players income (30 min = 1800 s) - это моё значение "по кайфу"
+    amount: 10
+    notify: "chat"
+    disabled-worlds: []     # worlds where time is not counted
+  world-events:
+    enabled: false            # placeholder for future events
